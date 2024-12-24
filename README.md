@@ -38,6 +38,7 @@ From the above characteristic table, we can directly write the next state equati
 5. For different input combinations generate the timing diagram.
 
 **PROGRAM**
+```
 module t_ff_ (t, clk, rst, q);
 
   input t, clk, rst;
@@ -63,18 +64,19 @@ begin
   end
   
 endmodule
+```
 
+**RTL LOGIC FOR FLIPFLOP**
 
-**RTL LOGIC FOR FLIPFLOPS**
 
 ![Screenshot 2024-12-10 103558](https://github.com/user-attachments/assets/c8adc167-6ddd-4277-a828-0b0495d58226)
 
 
-**TIMING DIGRAMS FOR FLIP FLOPS**
+**TIMING DIAGRAMS FOR FLIP FLOP**
 
 ![Screenshot 2024-12-10 104024](https://github.com/user-attachments/assets/828894b1-0e7d-4c1e-9dbc-be0f6e076a0b)
 
 
-**RESULTS**
+**RESULT**
 
 Thus implemented  T flipflop using verilog and validating their functionality using their functional tables
